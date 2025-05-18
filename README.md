@@ -89,7 +89,7 @@ With just a few lines of Go code, you can:
    - In your client’s configuration, point to the `hello-mcp` executable.
    - The client will automatically discover the `hello_world` tool schema and let you invoke it.
 
-   Manually example:
+   Example:
 
    ```json
    {
@@ -100,5 +100,7 @@ With just a few lines of Go code, you can:
      }
    }
    ```
+
+   or, use [my MCP client made in Go](https://github.com/lucasgdb/mcp-client-go-example)
 
 Enjoy building more complex workflows by adding additional tools, parameters, and transports (e.g., HTTP/SSE) as needed!
